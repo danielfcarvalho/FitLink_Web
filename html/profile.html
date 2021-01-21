@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Perfil - Cliente Premium</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <style>
+        body {
+            font-family: 'Karla', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bars fa-lg"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="profile.html">Perfil</a></li>
+                        <li><a class="dropdown-item" href="historico.html">Daily Tracker</a></li>
+                        <li><a class="dropdown-item" href="planner.html">Workout Planner</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a class="navbar-brand" style="font-weight: 900;" href="#">FITLINK</a>
+        </div>
+        <div>
+            <a href="login.html">
+                <h6 id="logout" style="color: lightgray; display: inline;">Sair</h6>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h4 id="welcome" style="padding-top:4vh; padding-bottom: 2vh; font-style: italic;"></h4>
+        <hr />
+        <h3 style="font-weight:500; padding-top: 2vh; padding-bottom: 2vh;">Os meus Planos de Treino</h3>
+        <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../images/grip.jpg" width="80px" height="200px" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Treino de Força 1</h5>
+                    <p class="card-text">
+                        <span><strong>Personal Trainer:</strong> Daniel Carvalho</span>
+                        <br />
+                        <span><strong>Última Sessão:</strong> 15 de Dez</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../images/cardio.jpg" width="80px" height="200px alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Treino de Cardio 1</h5>
+                    <p class="card-text">
+                        <span><strong>Personal Trainer:</strong> Daniel Carvalho</span>
+                        <br />
+                        <span><strong>Última Sessão:</strong> 15 de Dez</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../images/yoga.jpg" width="80px" height="200px alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Yoga 1</h5>
+                    <p class="card-text">
+                        <span><strong>Personal Trainer:</strong> Daniel Carvalho</span>
+                        <br />
+                        <span><strong>Última Sessão:</strong> 15 de Dez</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <h3 style="font-weight:500; padding-top: 2vh; padding-bottom: 2vh;">Os meus Personal Trainers</h3>
+        <div class="card-deck mb-4">
+            <div class="card mb-2" style="width: 18rem;">
+                <img class="card-img-top" src="../images/profile.png" width="40px" height="200px" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Daniel Carvalho</h5>
+                    <p class="card-text">
+                        Especialista em Yoga e Crossfit.
+                    </p>
+                </div>
+            </div>
+            <div class="card mb-2" style="width: 18rem;">
+                <img class="card-img-top" src="../images/profile.png" width="40px" height="200px" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Maria Ramos</h5>
+                    <p class="card-text">
+                        Especialista em Força.
+                    </p>
+                </div>
+            </div>
+            <div class="card mb-2" style="width: 18rem;">
+                <img class="card-img-top" src="../images/profile.png" width="40px" height="200px" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">José Azevedo</h5>
+                    <p class="card-text">
+                        Especialista em Cardio.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <h3 style="font-weight:500; padding-top: 2vh; padding-bottom: 2vh;">Daily Tracker</h3>
+        <div class="offset-md-3 col-md-6">
+            <img src="../assets/graphs.png" width="600px" height="250px" />
+            <a href="historico.html"><h5 class="text-center" style="padding-top: 4vh; padding-bottom:4vh"> Acede ao teu Daily Tracker!</h5></a><h5> Acede ao teu Daily Tracker!</h5>
+        </div>
+
+    </div>
+
+
+    <footer class="bg-dark fixed-bottom" style="height: 5vh;">
+        <h7 style="color:white; font-size:bold; margin-left:15px">FITLINK</h7>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/historico.js"></script>
+</body>
+
+</html>
